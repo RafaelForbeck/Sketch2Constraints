@@ -9,12 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var mensagemLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        mensagemLabel.setColor(toText: "$25", color: #colorLiteral(red: 1, green: 0.1491314173, blue: 0, alpha: 1))
     }
-
-
 }
 

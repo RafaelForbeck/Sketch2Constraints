@@ -12,6 +12,7 @@
 		E2B23DFA228266AA001D669F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B23DF8228266AA001D669F /* Main.storyboard */; };
 		E2B23DFC228266AB001D669F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B23DFB228266AB001D669F /* Assets.xcassets */; };
 		E2B23DFF228266AB001D669F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B23DFD228266AB001D669F /* LaunchScreen.storyboard */; };
+		E2B23E0722826720001D669F /* UILabel+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B23E0622826720001D669F /* UILabel+extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E2B23DFB228266AB001D669F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2B23DFE228266AB001D669F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2B23E00228266AB001D669F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B23E0622826720001D669F /* UILabel+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UILabel+extensions.swift"; path = "../../TesteInterface/TesteInterface/UILabel+extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				E2B23DFB228266AB001D669F /* Assets.xcassets */,
 				E2B23DFD228266AB001D669F /* LaunchScreen.storyboard */,
 				E2B23E00228266AB001D669F /* Info.plist */,
+				E2B23E0622826720001D669F /* UILabel+extensions.swift */,
 			);
 			path = Sketch2Constraints;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				E2B23DF7228266AA001D669F /* ViewController.swift in Sources */,
 				E2B23DF5228266AA001D669F /* AppDelegate.swift in Sources */,
+				E2B23E0722826720001D669F /* UILabel+extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
